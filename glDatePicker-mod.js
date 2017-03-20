@@ -84,8 +84,8 @@ if (!document.forms[MSOWebPartPageFormName].MSOLayout_InDesignMode.value) {
 
             // Arrows used for the Previous and Next month buttons on the title.
             // Set these to blank to hide the arrows completely.
-            prevArrow: '\u25c4',
-            nextArrow: '\u25ba',
+            prevArrow: '&#9666;',
+            nextArrow: '&#9656;',
 
             // A collection of dates that can be selectable by the user.
             // The dates can be a one-time selection or made repeatable by setting
