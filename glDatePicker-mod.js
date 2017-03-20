@@ -659,7 +659,6 @@ if (!document.forms[MSOWebPartPageFormName].MSOLayout_InDesignMode.value) {
 
                                             if(vDate.time == cellDateTime 
                                             && !cellClass.includes('outday')) {
-                                                console.log(cellClass);
                                                 cellClass = (v.cssClass || 'special');
                                                 cellZIndex += 52;
                                                 specialData = v.data;
